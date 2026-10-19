@@ -1,0 +1,4 @@
+# Invalid: ELSE has no matching IF
+x = 4
+else
+    x = 5

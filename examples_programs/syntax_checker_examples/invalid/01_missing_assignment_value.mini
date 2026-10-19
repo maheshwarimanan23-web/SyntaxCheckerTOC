@@ -1,0 +1,2 @@
+# Invalid: assignment has no expression on the right
+x =

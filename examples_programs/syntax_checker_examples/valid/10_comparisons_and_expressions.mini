@@ -1,0 +1,7 @@
+# Multiple comparison operators and expression statements
+a = 7
+b = 9
+equal = a == b
+different = a != b
+within_range = (a + b) <= 20
+a + b * 2

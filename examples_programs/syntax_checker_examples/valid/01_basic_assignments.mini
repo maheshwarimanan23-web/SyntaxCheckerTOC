@@ -1,0 +1,4 @@
+# Basic variable assignments
+x = 10
+y = 25
+total = x + y

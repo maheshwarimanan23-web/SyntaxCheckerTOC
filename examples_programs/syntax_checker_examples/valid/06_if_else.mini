@@ -1,0 +1,7 @@
+# IF statement with ELSE
+x = -3
+if x < 0 then
+    sign = -1
+else
+    sign = 1
+end

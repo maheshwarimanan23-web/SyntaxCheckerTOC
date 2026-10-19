@@ -1,0 +1,2 @@
+# Invalid: two operators appear where a value is required
+result = 1 + * 2

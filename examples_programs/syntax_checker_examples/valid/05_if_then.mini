@@ -1,0 +1,5 @@
+# IF statement without ELSE
+score = 78
+if score >= 50 then
+    passed = 1
+end

@@ -1,0 +1,3 @@
+# Multiplication and division bind more tightly than addition
+result = 2 + 3 * 4
+quotient = 20 / 5 + 1

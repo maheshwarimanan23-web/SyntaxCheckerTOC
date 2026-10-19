@@ -1,0 +1,3 @@
+# Unary minus is supported
+temperature = -5
+change = -temperature + 2

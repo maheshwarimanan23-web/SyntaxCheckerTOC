@@ -1,0 +1,4 @@
+# Invalid: condition needs a comparison operator
+if x then
+    y = 1
+end

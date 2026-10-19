@@ -1,0 +1,3 @@
+# Parentheses change evaluation grouping
+result = (2 + 3) * 4
+other = (10 - 4) / 2

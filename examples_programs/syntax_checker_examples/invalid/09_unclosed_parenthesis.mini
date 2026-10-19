@@ -1,0 +1,2 @@
+# Invalid: opening parenthesis is not closed
+result = (2 + 3
