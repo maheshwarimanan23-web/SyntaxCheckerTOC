@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="8Wr4HqwgyrD43O_TC0Tu">
+    <mxGraphModel dx="796" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KQ2mpwnDTA0TBxeH6SNo-1" parent="1" style="whiteSpace=wrap;html=1;" value="program → stmt_list EOF" vertex="1">
+          <mxGeometry height="60" width="156" x="336" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="KQ2mpwnDTA0TBxeH6SNo-2" parent="1" style="whiteSpace=wrap;html=1;" value="stmt_list → stmt stmt_list | ε" vertex="1">
+          <mxGeometry height="60" width="170" x="120" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="KQ2mpwnDTA0TBxeH6SNo-4" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div&gt;expr → expr PLUS term&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;| expr MINUS term&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;| term&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="156" x="650" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="KQ2mpwnDTA0TBxeH6SNo-5" parent="1" style="whiteSpace=wrap;html=1;" value="cond → expr COMP expr" vertex="1">
+          <mxGeometry height="60" width="140" x="460" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="KQ2mpwnDTA0TBxeH6SNo-6" parent="1" style="whiteSpace=wrap;html=1;" value="expr_stmt → expr" vertex="1">
+          <mxGeometry height="60" width="140" x="270" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="KQ2mpwnDTA0TBxeH6SNo-7" parent="1" style="whiteSpace=wrap;html=1;" value="while_stmt → WHILE cond DO stmt_list END" vertex="1">
+          <mxGeometry height="60" width="150" x="70" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="KQ2mpwnDTA0TBxeH6SNo-8" parent="1" style="whiteSpace=wrap;html=1;" value="stmt → assign | if_stmt | while_stmt | expr_stmt" vertex="1">
+          <mxGeometry height="60" width="156" x="354" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="KQ2mpwnDTA0TBxeH6SNo-9" parent="1" style="whiteSpace=wrap;html=1;" value="assign → IDENT ASSIGN expr" vertex="1">
+          <mxGeometry height="60" width="156" x="600" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="KQ2mpwnDTA0TBxeH6SNo-10" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;p&gt;&lt;code&gt;if_stmt → IF cond THEN stmt_list END | IF cond THEN stmt_list ELSE stmt_list END&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="80" width="224" x="309" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="KQ2mpwnDTA0TBxeH6SNo-11" parent="1" style="whiteSpace=wrap;html=1;" value="term → factor ((STAR | SLASH) factor)*" vertex="1">
+          <mxGeometry height="90" width="150" x="132" y="475" as="geometry" />
+        </mxCell>
+        <mxCell id="KQ2mpwnDTA0TBxeH6SNo-12" parent="1" style="whiteSpace=wrap;html=1;" value="factor → NUMBER | IDENT | LPAREN expr RPAREN | MINUS factor" vertex="1">
+          <mxGeometry height="80" width="170" x="560" y="480" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
